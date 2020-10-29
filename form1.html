@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+ <html>
+     <head>
+         <title>form registrasi mahasiswa</title>
+     </head>
+        <body style="background-color:powderblue;">
+            <fieldset>
+                <h1 style="text-align: left;">FORM REGISTRASI MAHASISWA STT NURUL FIKRI</h1>
+                <img style="align-content:center;" src="logo1.png" height="100" width="800">
+                <br>
+                <br>
+                <p><i>*tolong diisi dengan benar agar tidak terjadi kesalahan saat penginputan data</i></p>
+                    <form>
+                        <fieldset>
+                            <label for="nama_lengkap"><B>Nama Lengkap</B></label><br>
+                                <input type="text" placeholder="Nama Lengkap" id="nama_lengkap"><br>
+                            <label for="domisili"><b>Alamat Domisili</b></label><br>
+                                <textarea cols="20" rows="3" placeholder="Masukkan Alamat Tempat Tinggal Sekarang" id="domisili"></textarea><br>
+                            <label for="kota"><b>Kota Asal</b></label><br>
+                                <input type="text" placeholder="Kota Asal" id="kota"><br>
+                            <label for="email"><b>Alamat Email</b></label><br>
+                                <input type="text" placeholder="Masukkan emailmu" id="email"><br>
+                        </fieldset>
+                
+                        <!--Radio-->
+                        <p><i>*pilih kelas yang akan kamu ambil</i></p>
+                        <fieldset>    
+                        <label><b>Kelas</b></label>
+                            <input type="radio" name="kelas_user" value="0">Reguler Pagi
+                            <input type="radio" name="kelas_user" value="1">Malam
+                            <input type="radio" name="kelas_user" value="2">Reguler Weekend
+                        </fieldset>
+                        
+                        <!--Checkbox-->
+                        <p><i>*pilih tanda pengenal</i></p>
+                        <fieldset>
+                        <label><b>Tanda Pengenal</b></label>
+                            <input type="checkbox" name="tanda_user" value="0">KTP
+                            <input type="checkbox" name="tanda_user" value="1">Kartu Pelajar
+                            <input type="checkbox" name="tanda_user" value="2">Kartu Keluarga    
+                        </fieldset>
+
+                        <!--Select option-->
+                        <p><i>*pembiayaan</i></p>
+                        <fieldset>
+                            <label><b>Ditanggung Oleh:</b></label>
+                        <select>
+                            <option value="ayah">Ayah</option>
+                            <option value="ibu">Ibu</option>
+                            <option value="kakak">Kakak</option>
+                            <option value="aman">Paman</option>
+                        </select>
+                        </fieldset>
+                        <br>
+                        <br>
+
+                        <input type="submit" value="Kirim">
+    
+            
+                    </form>       
+            </fieldset>        
+        </body>           
+</html>
